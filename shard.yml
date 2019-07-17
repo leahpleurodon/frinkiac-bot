@@ -1,0 +1,17 @@
+name: frinkiac_bot
+version: 0.1.0
+
+authors:
+  - Leah <leah.eramo@gmail.com>
+
+targets:
+  frinkiac-bot:
+    main: src/frinkiac_bot.cr
+
+dependencies:
+  crystal-slack:
+    github: leahpleurodon/crystal-slack
+
+crystal: 0.28.0
+
+license: MIT
